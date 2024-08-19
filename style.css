@@ -14,10 +14,12 @@ tr:nth-child(odd) {
   background: #c0c0c0;
 }
 
-table tr:nth-child(3) td:nth-child(2),
-table tr:nth-child(6) td:nth-child(2) {
-  background: #ffbbbb;
-}
 table {
   border-collapse: collapse;
+}
+
+tr:nth-child(3) td:not(:first-child):not(:last-child),
+tr:nth-child(6) td:not(:first-child):not(:last-child)
+{
+    background: #ffbbbb
 }
