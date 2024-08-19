@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, tr, th{
+border: 2px solid black
+
+}
+tr:nth-child(odd){
+    background-color: #c0c0c0;
+}
+tr:nth-child(even){
+    background-color: #efefef;
+}
+th{
+    background-color:#888888 ;
+}
+tr:nth-child(3) > td:nth-child(2){
+    background-color: #ffbbbb;
+}
+tr:last-child > td:nth-child(2){
+    background-color: #ffbbbb;
+}
