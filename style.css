@@ -24,10 +24,10 @@ tr:nth-child(4) td:nth-child(2) {
     background-color: #ffbbbb;
 } */
 
-tr:nth-child(4) td:not(:nth-child(1)):not(:nth-child(3)) {
+tr:nth-child(3) td:not(:nth-child(1)):not(:nth-child(3)) {
   background-color: #ffbbbb;
 }
 
-tr:nth-child(7) td:not(:nth-child(1)):not(:nth-child(3)) {
+tr:nth-child(6) td:not(:nth-child(1)):not(:nth-child(3)) {
   background-color: #ffbbbb;
 }
