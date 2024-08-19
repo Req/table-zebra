@@ -1,0 +1,23 @@
+th {
+    background-color: grey;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+
+table {
+    width: 300px;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: .5em  ;
+}
+
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(6) td:nth-child(2) {
+    background: pink;
+}
