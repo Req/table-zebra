@@ -1,0 +1,20 @@
+table {
+  border: 3px solid;
+}
+td,
+th {
+  border: solid 1px;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 35px;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 20px;
+}
